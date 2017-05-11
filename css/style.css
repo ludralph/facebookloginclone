@@ -1,0 +1,339 @@
+* {
+    top: 0px;
+    margin: 0px;
+    box-sizing: 0px
+}
+
+@font-face {
+    font-family: fb;
+    src: url(../facebook-letter-faces.ttf);
+}
+
+body {
+    width: 1349px;
+    height: 800px;
+    background: -moz-linear-gradient(top, #ffffff, #d3d8e8);
+}
+
+.header {
+    width: 1349px;
+    height: 84px;
+    background-color: #3e5c9a;
+}
+
+.header h1 {
+    font-family: fb;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 185px;
+    margin-top: 31px;
+    float: left;
+}
+
+.header_cust {
+    float: left;
+    margin-left: 435px;
+    margin-top: 17px;
+}
+
+.header_cust p {
+    font-family: helvetica neue, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.email {
+    float: left;
+}
+
+.email input {
+    border: 1px solid #1d2a5b;
+    height: 22px
+}
+
+.pass {
+    float: left;
+    margin-left: 14px;
+}
+
+.pass input {
+    border: 1px solid #1d2a5b;
+    margin-bottom: 2px;
+    height: 22px
+}
+
+.pass a {
+    font-family: helvetica neue, sans-serif;
+    font-size: 12px;
+    color: #9cb4d8;
+    text-decoration: none;
+}
+
+.pass a:hover {
+    text-decoration: underline;
+}
+
+.log {
+    float: left;
+    margin-left: 14px;
+    background-color: #4267b2;
+    border-radius: 3px;
+    width: 48px;
+    height: 22px;
+    border: 1px solid #29487d;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.log p {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.log:hover {
+    background-color: #365899;
+}
+
+.col_1 {
+    width: 550px;
+    margin-left: 185px;
+    margin-top: 46px;
+    float: left;
+}
+
+.col_1 p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0a1132;
+    line-height: 30px;
+}
+
+.para {
+    width: 460px;
+}
+
+.col_1 img {
+    margin-left: 6px;
+}
+
+.col_2 {
+    float: left;
+    margin-top: 30px;
+    width: 445px;
+}
+
+.col_2 h1 {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.fname p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.fname {
+    float: left;
+}
+
+.fname input {
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    margin-top: 27px;
+    height: 36px;
+    width: 189px;
+}
+
+.fname input[type=text] {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.sname {
+    float: left;
+    margin-top: 59px;
+}
+
+.sname input {
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    height: 36px;
+    width: 189px;
+}
+
+.sname input[type=text] {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.safe input[type=text] {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.safe input {
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    margin-top: 10px;
+    height: 36px;
+    width: 403px;
+}
+
+.bday_wrapper {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.bday {
+    width: 194px;
+    background-color: #bdc7d8;
+    margin-top: 10px;
+    float: left;
+}
+
+.bday select {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 13px;
+    padding-left: 5px;
+    border: 1px solid #bdc7d8;
+}
+
+.day {
+    width: 59px;
+    height: 28px;
+}
+
+.month {
+    width: 71px;
+    height: 28px;
+    margin-left: -4px;
+}
+
+.year {
+    width: 62px;
+    height: 28px;
+    margin-left: -4px;
+}
+
+.link {
+    float: left;
+    width: 142px;
+    height: 28px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.link p {
+    line-height: 13px;
+}
+
+.link a {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: #365899;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.radio {
+    margin-top: 35px;
+}
+
+.radio1 p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 28px;
+}
+
+.radio1 input[type=radio] {
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+.radio2 p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.radio2 input[type=radio] {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.radio2 {
+    margin-left: 95px;
+    margin-top: -22px;
+}
+
+.text p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 11px;
+    color: #777777;
+}
+
+.text {
+    width: 309px;
+    margin-top: 18px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #365899;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-image: url(../img/button.png);
+    margin-top: 24px;
+    width: 207px;
+    height: 42px;
+}
+
+.button p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-left: 20px;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.text2 p {
+    font-family: helvetica neue, arial, sans-serif;
+    font-size: 13px;
+    color: #777777;
+    font-weight: 600;
+    margin-top: 38px;
+}
+
+.text2 a {
+    text-decoration: none;
+    color: #365899;
+}
+
+.text2 a:hover {
+    text-decoration: underline;
+}
